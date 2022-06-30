@@ -1,0 +1,26 @@
+{"/specification/pages/about/": {
+    "title": "About",
+    "keywords": "Docs",
+    "url": "/specification/pages/about/",
+    "body": "This is an about page."
+  },"/specification/pages/contact/": {
+    "title": "Contact",
+    "keywords": "Docs",
+    "url": "/specification/pages/contact/",
+    "body": "This is an contact page."
+  },"/specification/docs/2022-06-28-release.html": {
+    "title": "Release Notes",
+    "keywords": "Docs",
+    "url": "/specification/docs/2022-06-28-release.html",
+    "body": "Описание релиза"
+  },"/specification/docs/2022-06-28-api.html": {
+    "title": "Методы API",
+    "keywords": "Docs",
+    "url": "/specification/docs/2022-06-28-api.html",
+    "body": "API Alfa.Corporate System Набор методов API по взаимодействию с Системой Alfa.Corporate для работы с НП НПД (Самозанятыми) Encryption Получение публичного ключа для шифрования данных title1 title2 title3 title4 title5 title6 title7 title8 1 2 3 4 5 6 7 8 Key: type: object required: - publicKey properties: publicKey: type: string description: Открытый ключ description: Открытый ключ для шифрования передаваемых данных Why this repo long contents ….. a b c d Why this repo long contents ….. 1 2 3 4"
+  },"/specification/docs/2022-06-28-spec-api.html": {
+    "title": "Спецификация API",
+    "keywords": "Docs",
+    "url": "/specification/docs/2022-06-28-spec-api.html",
+    "body": "Описание спецификации API"
+  }}

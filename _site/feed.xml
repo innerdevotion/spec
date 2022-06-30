@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/specification/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/specification/" rel="alternate" type="text/html" /><updated>2022-06-30T20:07:02+03:00</updated><id>http://localhost:4000/specification/feed.xml</id><title type="html">Blockchain Team Alfa-Bank</title><subtitle>Документация команды Блокчейн Альфа-Банка
+</subtitle><entry><title type="html">Спецификация API</title><link href="http://localhost:4000/specification/docs/2022-06-28-spec-api.html" rel="alternate" type="text/html" title="Спецификация API" /><published>2022-06-28T13:47:25+03:00</published><updated>2022-06-28T13:47:25+03:00</updated><id>http://localhost:4000/specification/docs/spec-api</id><content type="html" xml:base="http://localhost:4000/specification/docs/2022-06-28-spec-api.html"><![CDATA[<p>Описание спецификации API</p>]]></content><author><name></name></author><category term="Docs" /><summary type="html"><![CDATA[Описание спецификации API]]></summary></entry><entry><title type="html">Методы API</title><link href="http://localhost:4000/specification/docs/2022-06-28-api.html" rel="alternate" type="text/html" title="Методы API" /><published>2022-06-28T13:47:25+03:00</published><updated>2022-06-28T13:47:25+03:00</updated><id>http://localhost:4000/specification/docs/api</id><content type="html" xml:base="http://localhost:4000/specification/docs/2022-06-28-api.html"><![CDATA[<h2 id="api-alfacorporate-system">API Alfa.Corporate System</h2>
+
+<p>Набор методов API по взаимодействию с Системой Alfa.Corporate для работы с НП НПД (Самозанятыми)</p>
+
+<h3 id="encryption">Encryption</h3>
+
+<p>Получение публичного ключа для шифрования данных</p>
+
+<div class="table-wrapper">
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">title1</th>
+        <th style="text-align: center">title2</th>
+        <th style="text-align: center">title3</th>
+        <th style="text-align: center">title4</th>
+        <th style="text-align: center">title5</th>
+        <th style="text-align: center">title6</th>
+        <th style="text-align: center">title7</th>
+        <th style="text-align: center">title8</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="na">Key</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
+      <span class="na">required</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">publicKey</span>
+      <span class="na">properties</span><span class="pi">:</span>
+        <span class="na">publicKey</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Открытый ключ</span>
+      <span class="na">description</span><span class="pi">:</span> <span class="s">Открытый ключ для шифрования передаваемых данных</span>
+</code></pre></div></div>
+
+<h3 id="why-this-repo">Why this repo</h3>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h3 id="why-this-repo-1">Why this repo</h3>
+<hr />
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>]]></content><author><name></name></author><category term="Docs" /><summary type="html"><![CDATA[API Alfa.Corporate System]]></summary></entry><entry><title type="html">Release Notes</title><link href="http://localhost:4000/specification/docs/2022-06-28-release.html" rel="alternate" type="text/html" title="Release Notes" /><published>2022-06-28T13:47:25+03:00</published><updated>2022-06-28T13:47:25+03:00</updated><id>http://localhost:4000/specification/docs/release</id><content type="html" xml:base="http://localhost:4000/specification/docs/2022-06-28-release.html"><![CDATA[<p>Описание релиза</p>]]></content><author><name></name></author><category term="Docs" /><summary type="html"><![CDATA[Описание релиза]]></summary></entry></feed>

@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Методы API · Blockchain Team Alfa-Bank</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Документация команды Блокчейн Альфа-Банка
+"><meta name="generator" content="Jekyll (using style of GitBook 1.0.0)"><link rel="stylesheet" href="/specification/gitbook/style.css">
+<link rel="stylesheet" href="/specification/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/specification/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/specification/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+
+<link rel="stylesheet" href="/specification/gitbook/rouge/colorful.css">
+
+<link rel="stylesheet" href="/specification/gitbook/custom.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/specification/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/specification/gitbook/images/favicon.ico" type="image/x-icon">
+
+
+
+
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+            <link rel="prev" href="/specification/docs/2022-06-28-spec-api.html" />
+        
+
+        
+            <link rel="next" href="/specification/docs/2022-06-28-release.html" />
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <nav role="navigation">
+        <!-- <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div> -->
+        <!-- <div id="book-search-input-link" role="search">
+            <a href="/specification/search.html">Click to Search</a>
+        </div> -->
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="/specification">
+            
+                <a href="/specification/">
+                    Blockchain Team Alfa-Bank
+                </a>
+            </li>
+
+            <!-- <li class="divider"></li> -->
+
+            
+                <!-- <p>pages</p> -->
+                <li class="divider"></li>
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/specification/pages/contact/">
+                        
+                            <a href="/specification/pages/contact/">
+                                Contact
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/specification/pages/about/">
+                        
+                            <a href="/specification/pages/about/">
+                                About
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                
+            
+                <!-- <p>posts</p> -->
+                <li class="divider"></li>
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/specification/docs/2022-06-28-spec-api.html">
+                        
+                            <a href="/specification/docs/2022-06-28-spec-api.html">
+                                Спецификация API
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter active" data-level="1.2" data-path="/specification/docs/2022-06-28-api.html">
+                        
+                            <a href="/specification/docs/2022-06-28-api.html">
+                                Методы API
+                            </a>
+                            
+                                
+                                    <ul><li><a href="#api-alfacorporate-system">API Alfa.Corporate System</a><ul><li><a href="#encryption">Encryption</a></li><li><a href="#why-this-repo">Why this repo</a></li><li><a href="#why-this-repo-1">Why this repo</a></li></ul></li></ul>
+
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/specification/docs/2022-06-28-release.html">
+                        
+                            <a href="/specification/docs/2022-06-28-release.html">
+                                Release Notes
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >Методы API</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/docs/api">Методы API</h1>
+                    
+
+                    <h2 id="api-alfacorporate-system">API Alfa.Corporate System</h2>
+
+<p>Набор методов API по взаимодействию с Системой Alfa.Corporate для работы с НП НПД (Самозанятыми)</p>
+
+<h3 id="encryption">Encryption</h3>
+
+<p>Получение публичного ключа для шифрования данных</p>
+
+<div class="table-wrapper">
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">title1</th>
+        <th style="text-align: center">title2</th>
+        <th style="text-align: center">title3</th>
+        <th style="text-align: center">title4</th>
+        <th style="text-align: center">title5</th>
+        <th style="text-align: center">title6</th>
+        <th style="text-align: center">title7</th>
+        <th style="text-align: center">title8</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="na">Key</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
+      <span class="na">required</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">publicKey</span>
+      <span class="na">properties</span><span class="pi">:</span>
+        <span class="na">publicKey</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">description</span><span class="pi">:</span> <span class="s">Открытый ключ</span>
+      <span class="na">description</span><span class="pi">:</span> <span class="s">Открытый ключ для шифрования передаваемых данных</span>
+</code></pre></div></div>
+
+<h3 id="why-this-repo">Why this repo</h3>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h3 id="why-this-repo-1">Why this repo</h3>
+<hr />
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+                </section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+                        <a href="/specification/docs/2022-06-28-spec-api.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Спецификация API">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                        <a href="/specification/docs/2022-06-28-release.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Release Notes">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "next": {
+            "title": "Release Notes",
+            "level": "1.2",
+            "depth": 1,
+            "path": "_posts/2022-06-03-release.md",
+            "ref": "_posts/2022-06-03-release.md",
+            "articles": []
+        },
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},
+            "sharing": {
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
+                "facebook": true,
+                "google": false,
+                "instapaper": false,
+                "twitter": true,
+                "vk": false,
+                "weibo": false
+            },
+            "theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            }
+        },
+        "theme": "default",
+        "author": "",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "Blockchain Team Alfa-Bank",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_posts/2022-06-02-api.md",
+        "mtime": "2022-06-28 13:47:25 +0300",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "1.0.0",
+        "time": "2022-06-30 20:07:02 +0300"
+    },
+    "basePath": "/specification",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/specification/gitbook/gitbook.js"></script>
+<script src="/specification/gitbook/theme.js"></script>
+
+<script src="/specification/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/specification/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+
+<!-- <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script> -->
+
+<script src="/specification/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/specification/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/specification/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+</body>
+</html>
